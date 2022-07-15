@@ -1,0 +1,33 @@
+<form [formGroup]="createShopForm">
+    <div class="mb-3 row">
+        <label for="storeName" class="col-sm-2 col-form-label">Store name</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="storeName" formControlName="storeName">
+        </div>
+    </div>
+    <div class="mb-3 row">
+        <label for="description" class="col-sm-2 col-form-label">Description</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="description" formControlName="description">
+        </div>
+    </div>
+    <div class="mb-3 row">
+        <label for="location" class="col-sm-2 col-form-label">Location</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="location" formControlName="location">
+        </div>
+    </div>
+    <div class="mb-3 row">
+        <label for="instagram" class="col-sm-2 col-form-label">Instagram</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="instagram" formControlName="instagram">
+        </div>
+    </div>
+    <div class="mb-3 row">
+        <label for="facebook" class="col-sm-2 col-form-label">Facebook</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="facebook" formControlName="facebook">
+        </div>
+    </div>
+    <button type="button" class="btn btn-primary" (click)="submit()">Submit</button>
+</form>
