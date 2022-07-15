@@ -40,3 +40,6 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+.vs/slnx.sqlite
+.vs/VSWorkspaceState.json
+.vs/Distri-frontend/v17/.suo
